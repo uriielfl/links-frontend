@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+  font-family: "Ubuntu Condensed", sans-serif !important;
+}
+
+#root {
+  @apply text-[whitesmoke] bg-[#000000] text-center p-8 mx-0 my-auto;
+}

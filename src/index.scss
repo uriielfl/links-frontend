@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-blue-gray-50;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 bg-gray-400;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-100;
+}
+
+button {
+  @apply md:max-w-lg sm:max-w-xs;
+}
