@@ -1,9 +1,9 @@
 # Glossário
 
-- [Dependências](#Dependências)
-- [Instalação de dependências](#Instalação)
-- [Executando o projeto](#Executando)
-- [Formatando o código](#Formatando)
+- [Dependências](#dependências)
+- [Instalação de dependências](#instalação-de-dependências)
+- [Executando o projeto](#executando-o-projeto)
+- [Formatando o código](#formatando-o-código)
 
 # Dependências:
 
@@ -39,11 +39,13 @@ C:\projects\links> npm i --legacy-peer-deps
 Você deverá criar um arquivo .env como o valor das variáveis necessárias para a execução da aplicação. Na raiz do projeto existe um `.env.example`, deve-se criar um arquivo identico, com porém com o nome `.env`, seus valores preenchidos. Exemplo:
 
 .env.example:
-
+```
 VITE_API_URL=
-
+```
 .env:
+```
 VITE_API_URL=http://{URL_DA_MINHA_API}
+```
 
 # Executando o projeto
 
